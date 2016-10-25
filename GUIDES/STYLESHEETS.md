@@ -26,8 +26,8 @@ require("./stylesheet.css");
 #抽离css包
 通过[extract-text-webpack-plugin]()来合并，可以生成输入CSS的文件。
 通过代码分割，我们可以使用两个不同的模式：
-*创建一个css文件为初始的chunk(详细看 [代码分割](https://github.com/nljshoxbb/webpack-/blob/master/GUIDES/Code%20Splitting.md))和把内联样式加入到chunks中。（推荐）
-*创建一个css文件为初始化chunk，同时也包含来自其他chunks的样式。
+* 创建一个css文件为初始的chunk(详细看 [代码分割](https://github.com/nljshoxbb/webpack-/blob/master/GUIDES/Code%20Splitting.md))和把内联样式加入到chunks中。（推荐）
+* 创建一个css文件为初始化chunk，同时也包含来自其他chunks的样式。
 
 ###插件安装
 通过npm安装插件
