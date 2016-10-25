@@ -1,4 +1,4 @@
-#EMBEDDED STYLESHEETS
+#内联样式表
 通过使用`style-loader`和`css-loader`可以把样式嵌入由webpack打包的js包中。这个方法你可以通过别的模块来模块化你的样式。通过`require("./stylesheet.css")`，可以很简单使用样式。
 ##安装
 通过npm安装加载器。
@@ -23,7 +23,7 @@
 require("./stylesheet.css");
 ```
 
-##抽离出css包
+#抽离css包
 通过[extract-text-webpack-plugin]()来合并，可以生成输入CSS的文件。
 通过代码分割，我们可以使用两个不同的模式：
 *创建一个css文件为初始的chunk(详细看 [代码分割](https://github.com/nljshoxbb/webpack-/blob/master/GUIDES/Code%20Splitting.md))和把内联样式加入到chunks中。（推荐）
