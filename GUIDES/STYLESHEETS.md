@@ -97,6 +97,7 @@ module.exports = {
 			})
 	]
 }
+```
 你将会得到以下输出文件
 * `posts.js` `posts.css`
 * `post.js` `post.css`
